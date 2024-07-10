@@ -1,0 +1,790 @@
+/* Google Font */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  color: black;
+}
+body,
+html {
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.app-container {
+  display: flex;
+}
+.navbar {
+  width: 20%;
+  min-height: 100vh;
+  border-right: 1px solid black;
+}
+.navbar nav {
+  padding: 3rem 1rem;
+}
+.navbar nav ul li {
+  padding: 1rem 1rem;
+}
+.active-link {
+  background-color: #4385ff;
+  border-radius: 10px;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  & a {
+    color: white;
+  }
+}
+.icon {
+  padding-right: 0.5rem;
+}
+.main__section {
+  width: 80%;
+}
+.update-link-active {
+  color: #4385ff;
+}
+.app-container {
+  background-color: #f8f9fb;
+}
+.update__information__left {
+  padding: 1rem 2rem;
+}
+.update_breadcrumb {
+  display: flex;
+  gap: 1.1rem;
+}
+.update_breadcrumb h3 {
+  font-size: 15px;
+}
+.update_links {
+  margin-top: 35px;
+}
+.update_links ul {
+  display: flex;
+  gap: 2rem;
+  & li {
+    cursor: pointer;
+  }
+}
+.update__information__section {
+  display: flex;
+}
+.update__information__left {
+  width: 75%;
+}
+.update__information__right {
+  width: 23%;
+}
+.insurance__details {
+  display: flex;
+  margin-top: 30px;
+  gap: 2rem;
+}
+.insurance_list {
+  background-color: white;
+  width: 40%;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.insurance__info {
+  background-color: white;
+  width: 60%;
+  padding: 1rem 1rem;
+  border-radius: 10px;
+}
+.insurance_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 20px;
+}
+.insuranceTypeHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & h2 {
+    font-size: 15px;
+  }
+}
+.insurance_type_details {
+  background-color: #dfeafe;
+  padding: 1rem 0.3rem;
+}
+.i_t_d_left {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  & img {
+    width: 50px;
+  }
+}
+.i_t_d_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.312);
+  padding-bottom: 10px;
+}
+.insurance_detail h2 {
+  font-size: 13px;
+}
+.i_t_d_right {
+  display: flex;
+  flex-direction: column;
+}
+.i_t_d_right {
+  justify-content: center;
+  align-items: center;
+}
+.i_t_d_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.insurance__number h4 {
+  font-size: 15px;
+  & p {
+    font-size: 10px;
+  }
+}
+.insurance__expire h3 {
+  font-size: 15px;
+  & p {
+    font-size: 10px;
+  }
+}
+.insurance_type_details {
+  display: none;
+}
+.insurance__type {
+  padding: 0.5rem 0rem;
+}
+.cursor_pointer {
+  cursor: pointer;
+}
+.insurance__info {
+  display: flex;
+  flex-direction: column;
+}
+.insurance_info__heading h1 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.insurance_info__sub_heading h3 {
+  font-size: 11px;
+  font-weight: 500;
+}
+.insurance_area {
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  margin-top: 15px;
+  & h3 {
+    font-size: 12px;
+    padding: 0.5rem 0.5rem;
+    font-weight: 600;
+  }
+}
+.insurance_info_details {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  & h2 {
+    color: rgba(0, 0, 0, 0.535);
+    font-size: 15px;
+  }
+  & input {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.256);
+    padding: 0.3rem 0.5rem;
+  }
+}
+.viewOrder {
+  color: #6597ff;
+  text-decoration: underline;
+  float: right;
+  font-size: 13px;
+}
+.insurance__cards h2 {
+  font-size: 15px;
+}
+.insurance__cards {
+  margin-top: 30px;
+}
+.insurance__card__container {
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  padding: 1rem 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & h1 {
+    font-size: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.535);
+  }
+}
+.card_image {
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  padding: 1rem 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insurance__card {
+  display: flex;
+  margin-top: 20px;
+  gap: 2rem;
+}
+.medicare_advantage_plan {
+  border: 1px solid rgba(0, 0, 0, 0.256);
+  border-radius: 8px;
+  padding: 0.5rem;
+  margin-top: 15px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.m_a_p_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  & p {
+    font-size: 11px;
+  }
+  & .radio {
+    display: flex;
+
+    gap: 1rem;
+  }
+}
+.m_a_p_bottom h2 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.535);
+}
+.m_a_p_bottom input {
+  width: 100%;
+  padding: 0.3rem;
+}
+.m_a_p_bottom {
+  margin-top: 10px;
+}
+.insurance__info {
+  visibility: hidden;
+}
+.update__information__right {
+  min-height: 100vh;
+}
+.sidebar_user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+.sidebar_user_profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+.user_logo {
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+}
+.sidebar_user_profile h1 {
+  font-size: 15px;
+}
+.sidebar_userSetting h3 {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.535);
+}
+.sidebar_userSetting {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 10px;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 20px;
+}
+.price button {
+  width: 100%;
+  color: white;
+  background-color: #a7adbd;
+  border: 1px solid #a7adbd;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.update_information_right_details {
+  background-color: white;
+  height: 100%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.rights {
+  padding: 15px 10px;
+}
+.rights h3 {
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+.rights p {
+  font-size: 8px;
+}
+.more {
+  font-size: 8px;
+  color: #4385ff;
+  text-decoration: underline;
+}
+.save__changes {
+  width: 100%;
+  padding: 20px 0px;
+}
+.save__btn {
+  background-color: #21305b;
+  border: 1px solid #21305b;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+.billing {
+  padding: 20px 10px;
+  & h3 {
+    font-size: 12px;
+  }
+  & ul li {
+    font-size: 10px;
+  }
+}
+.Appointment_container {
+  display: flex;
+  background-color: #f8f9fb;
+  width: 100%;
+}
+.appointment_left {
+  min-width: 75%;
+  padding: 10px 20px;
+}
+.appointment_right {
+  min-width: 25%;
+
+  min-height: 100vh;
+  padding: 10px 10px;
+  padding-right: 15px;
+}
+.v-progress {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#scheduling_questions {
+  margin-top: 60px;
+  & h3 {
+    padding-bottom: 10px;
+  }
+}
+.step_btn {
+  display: flex;
+  gap: 20px;
+  & button {
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}
+
+.next {
+  color: white;
+  background-color: #5891ff;
+}
+.save_draft {
+  background-color: #7b839a;
+  color: white;
+}
+#schedule__appointment {
+  width: 100%;
+  text-align: center;
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+  color: white;
+  background-color: #5891ff;
+}
+.prev {
+  background-color: #7b839a;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.prev,
+.next,
+.save_draft,
+#schedule__appointment {
+  border-width: 1px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.appointment_breadcrumb {
+  display: flex;
+  gap: 20px;
+  & h3 {
+    font-size: 15px;
+  }
+  & span {
+    padding: 0px 5px;
+  }
+}
+.Address_Section_Container {
+  width: 100%;
+  background-color: white;
+  margin: 50px 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 10px;
+}
+.a_s_c_heading h1 {
+  font-size: 15px;
+}
+.a_s_c_input_container {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  width: 100%;
+}
+.asc_input {
+  width: 80%;
+  border: 1px solid #21315b4a;
+  padding: 0px 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  & input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+}
+
+.home {
+  cursor: pointer;
+  color: #4385ff;
+  background-color: #dde8fe;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border: 1px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.map {
+  width: 100%;
+  margin-top: 30px;
+}
+.date_and_Time_container {
+  margin: 30px 0px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.time_card_container {
+  width: 100%;
+  margin: 30px 0px;
+  display: flex;
+
+  gap: 20px;
+}
+.time_card_container .left {
+  width: 50%;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.time_card_container .right {
+  background-color: #f8f9fb;
+  width: 50%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  & h1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
+.distance {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.distance_value {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  & h4 {
+    font-size: 12px;
+  }
+}
+.distance a {
+  font-size: 10px;
+  color: #4385ff;
+}
+.diagnose h1 {
+  font-size: 15px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.location p {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.contact {
+  display: flex;
+  gap: 20px;
+  & span {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}
+.time_Slots_container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  & .time {
+    border: 1px solid rgba(0, 0, 0, 0.345);
+    font-size: 10px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+  }
+}
+.active_lin_time {
+  background-color: #4385ff;
+  border: none;
+  & p {
+    color: white;
+  }
+}
+.personal__Container {
+  background-color: white;
+  margin: 40px;
+  padding: 10px 20px;
+}
+.personal__Container h1 {
+  font-size: 14px;
+}
+.sub_section {
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  background-color: #f8f9fb;
+  & .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  & .bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+    margin-top: 10px;
+    padding: 10px 0px;
+    & p {
+      font-size: 12px;
+    }
+  }
+}
+.home_main_conatiner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
