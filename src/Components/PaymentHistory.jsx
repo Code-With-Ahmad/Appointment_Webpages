@@ -2,9 +2,11 @@ import React from "react";
 
 const PaymentHistory = () => {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>No Design Available !</h1>
-    </div>
+    <>
+      <div className="home_main_conatiner">
+        <h1>No Design Available !</h1>
+      </div>
+    </>
   );
 };
 

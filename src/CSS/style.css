@@ -788,3 +788,74 @@ html {
   align-items: center;
   gap: 30px;
 }
+.sidebar_userSetting {
+  display: flex;
+  align-items: center;
+}
+#login___container {
+  width: 40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px 30px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_login {
+  width: 100%;
+  margin: 5px 0px;
+  & input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+}
+.input_field_login {
+  display: flex;
+  padding: 10px 10px;
+  gap: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.394);
+}
+.forget_password {
+  width: 100%;
+  text-align: right;
+}
+#login__btn,
+#login_google {
+  margin: 10px 0px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, #7abae0, #dc48f5);
+  border-radius: 15px;
+  color: white;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+#signup_para {
+  margin: 10px 0px;
+  font-size: 12px;
+}
+#login_google {
+  background: rgb(184, 127, 22);
+}
+.signup_link {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & p {
+    font-size: 12px;
+  }
+}

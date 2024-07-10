@@ -1,6 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGear, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGear,
+  faUser,
+  faPenToSquare,
+} from "@fortawesome/free-solid-svg-icons";
+import NavigationItem from "./NavigationItem";
+
 const SideBar_User = () => {
   return (
     <div className="sidebar_user">
@@ -8,10 +14,10 @@ const SideBar_User = () => {
         <div className="user_logo">
           <FontAwesomeIcon icon={faUser} />
         </div>
-        <h1>Najam Saeed</h1>
+        <h1>Guest</h1>
       </div>
       <div className="sidebar_userSetting">
-        <h3>Logout</h3>
+        <NavigationItem path="/login-page" icon="" text="Login" />
         <FontAwesomeIcon icon={faGear} />
       </div>
     </div>
