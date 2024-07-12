@@ -23,7 +23,7 @@ const Progressbar = ({ step }) => {
             step >= 3 ? "completed" : step === 3 ? "inprogress" : ""
           }`}
         >
-          Enter Personal and Insurance detail
+          Enter Personal <br /> <br /> and Insurance detail
         </li>
       </ul>
     </div>

@@ -515,8 +515,8 @@ html {
   padding: 10px 20px;
 }
 .appointment_right {
-  min-width: 25%;
-
+  min-width: 23%;
+  box-sizing: border-box;
   min-height: 100vh;
   padding: 10px 10px;
   padding-right: 15px;
@@ -858,4 +858,16 @@ html {
   & p {
     font-size: 12px;
   }
+}
+.logout__btn_SideBar {
+  cursor: pointer;
+}
+.appointment_right {
+  padding-right: 20px;
+}
+.sidebar_user {
+ 
+  width: 100%;
+  padding-right: 100px;
+  box-sizing: border-box;
 }
